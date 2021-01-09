@@ -1,5 +1,6 @@
 /**
- * ln:42 to add new entities ex : [User, Post...]
+ * ln:43 to add new entities ex : [User, Post...]
+ * ln:37 add your database type
  */
 import dotenv from 'dotenv'
 import { createConnection, Connection } from 'typeorm'
