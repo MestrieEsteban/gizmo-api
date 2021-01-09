@@ -1,3 +1,7 @@
+/**
+ * You can create your api res here
+ */
+
 export const OK = {
   status: 200,
   code: 'OK',

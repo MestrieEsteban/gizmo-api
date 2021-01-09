@@ -1,4 +1,6 @@
-/* eslint-disable prettier/prettier */
+/**
+ * ln:42 to add new entities ex : [User, Post...]
+ */
 import dotenv from 'dotenv'
 import { createConnection, Connection } from 'typeorm'
 import { addUser } from '../fixtures/insert.users'

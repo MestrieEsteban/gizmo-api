@@ -1,3 +1,7 @@
+/**
+ * If your routes are in the secured folder, a token will have to be sent to access the route
+ */
+
 import { Router, Request, Response } from 'express'
 import auth from './authenticate'
 import secured from './secured/index'

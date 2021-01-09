@@ -1,3 +1,8 @@
+/**
+ * https://typeorm.io/#/ 😉
+ * Dont forget : If you add a new entities you need to add it in ./Database.ts
+ */
+
 import {
   Entity,
   PrimaryGeneratedColumn,
