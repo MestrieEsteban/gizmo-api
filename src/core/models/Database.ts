@@ -26,7 +26,7 @@ export default class Database {
     dotenv.config()
 
     const founded = (process.env.DATABASE_URL as string).match(/^(postgres):\/\/(.*):(.*)@(.*):(\d+)\/(.*)$/)
-	
+
     if (!founded) {
       throw new Error('[ERROR] kPlease chec your DATABASE_URL value')
     }

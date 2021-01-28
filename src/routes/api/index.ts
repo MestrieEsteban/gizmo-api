@@ -7,9 +7,7 @@ import auth from './authenticate'
 import secured from './secured/index'
 import passport from 'passport'
 
-
 export const argv: string[] = process.argv.slice(2)
-
 
 const api = Router()
 
@@ -23,7 +21,7 @@ api.get('/', (req: Request, res: Response) => {
   })
 })
 
-api.use('/authenticate', auth) 
+api.use('/authenticate', auth)
 api.use('/', passport.authenticate('jwt', { session: false }), secured)
 
 /**

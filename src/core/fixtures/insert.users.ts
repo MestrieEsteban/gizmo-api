@@ -1,9 +1,7 @@
 /**
  * @Insert
- * This is a example if you want to automatically insert rows in your database 
+ * This is a example if you want to automatically insert rows in your database
  */
-
-
 
 // const users = [
 //   {

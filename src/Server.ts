@@ -22,16 +22,15 @@ export default class Server {
   }
 
   private async _initialize(): Promise<void> {
-	  
-	const db = Database.getInstance()
-	  
-	try {
-		await db.authenticate()
-	} catch (err) {
-		mlog(err.message, 'error')
-		return
-	}
-	  
+    const db = Database.getInstance()
+
+    try {
+      await db.authenticate()
+    } catch (err) {
+      mlog(err.message, 'error')
+      return
+    }
+
     mlog('Database successfully authenticated', 'success')
     this._app = express()
 
