@@ -1,0 +1,12 @@
+[
+{
+	"name": "ctrl",
+	"type": "Controller",
+	"required": [
+		"Name"
+	],
+	"template": "./src/core/gizmo/ControllerTemplate.gizmo",
+	"path": "./src/controllers/",
+	"ext": "ts"
+}
+]

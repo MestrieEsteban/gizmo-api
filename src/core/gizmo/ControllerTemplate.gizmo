@@ -1,0 +1,18 @@
+import { Request, Response } from 'express'
+import { PrismaClient } from '@prisma/client'
+import { isEmpty } from 'lodash'
+
+const prisma = new PrismaClient()
+
+import { BAD_REQUEST, CREATED, DELETED, OK, UPDATED } from '../core/constants/api'
+
+
+class {{ name }} {
+  static async myFunction(req: Request, res: Response) {
+   
+  }
+   
+ 
+}
+
+export default {{ name }}
