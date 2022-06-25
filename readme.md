@@ -35,6 +35,6 @@ Update now !
 - [x] Add Controllers
 - [x] Cors and Express 
 - [x] Prisma 
-- []  Create a good documentation and implement a swagger
-- [] Unit tests
-- [] Continuous integration with Gizmo CLI
+- [ ]  Create a good documentation and implement a swagger
+- [ ] Unit tests
+- [ ] Continuous integration with Gizmo CLI
